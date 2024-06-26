@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/home_review_recyclerview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+    <ImageView
+        android:id="@+id/review_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:src="@drawable/anibuddy_logo" />
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:id="@+id/home_review_store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="무슨 무슨 가게"
+        />
+    <TextView
+        android:id="@+id/home_review_store_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:text="무슨 무슨 가게 어쩌구 저쩌구"
+        android:layout_below="@id/home_review_store_name"
+        />
+
+        <RatingBar
+            android:id="@+id/home_review_ratingbar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:isIndicator="true"
+            android:max="5"
+            android:rating="3"
+            android:stepSize="0.5"
+            android:progressTint="#DFD681"
+            android:layout_alignParentBottom="true"
+            />
+        <TextView
+            android:id="@+id/home_review_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20시간전"
+            android:layout_alignRight="@id/home_review_ratingbar"
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>

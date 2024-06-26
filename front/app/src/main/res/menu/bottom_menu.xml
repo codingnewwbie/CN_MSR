@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="home"
+        />
+    <item
+        android:id="@+id/reservationList"
+        android:title="reservationList"
+        />
+    <item
+        android:id="@+id/follwingList"
+        android:title="follwingList"
+        />
+    <item
+        android:id="@+id/chatList"
+        android:title="chatList"
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        />
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/menu_search_icon"
+        android:title="search_icon"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:title="Alarm"
+        app:showAsAction="always"
+        android:gravity="center"
+   />
+
+</menu>
